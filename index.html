@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.js">
+    <link rel="stylesheet" href="app.js">
+    <title>Home - Miguel Gutierrez</title>
+</head>
+<body>
+    <header id="header" class="max">
+        <div class="menu-content">
+            <img id="logo" class="logo" src="imagens/logo.png">
+            <nav class="header-menu">
+                <ul class="list-items">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#work">My Work</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="contato.php" class="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <script src="menu.js"></script>
+
+
+
+    <main>
+        <article>
+            <button class="scroll-top" onclick="backTop();">
+                <img src="imagens/arrow.png" alt="voltar-para-cima">
+            </button>
+            
+        </article>
+
+
+
+        <section class="home-content" id="home">
+            <div class="texto-foto">
+                <h1 class="nome-text">Miguel Gutierrez</h1>
+                <img class="foto" src="imagens/foto.jpg">
+            </div>
+            
+            <div class="contatos">
+                <div class="contatos-img">
+                    <img src="imagens/telefone.png" width="36px" height="36px">
+                    <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJTJnnfFfrhTpzKMHxnBSWDjRcZKNGRsfzNRNQxvdFnVDdlgrJtgGLPzXSLsttzRCCGLllV" class="email-foto"><img src="imagens/email.png" width="36px" height="36px"></a>
+                    <a href="https://github.com/kurch00"><img src="imagens/github.png" width="36px" height="36px"></a>
+                    <a href="https://www.linkedin.com/in/miguel-gutierrez-612a83297/"><img src="imagens/linkedin.png" width="36px" height="36px"></a>
+                </div>
+                <div class="contatos-txt">
+                    <p>+55 (47) 99746-6188</p>
+                    <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJTJnnfFfrhTpzKMHxnBSWDjRcZKNGRsfzNRNQxvdFnVDdlgrJtgGLPzXSLsttzRCCGLllV" class="email-txt">miguelkguti@gmail.com</a>
+                    <a href="https://github.com/kurch00" class="github-txt">kurch00</a>
+                    <a href="https://www.linkedin.com/in/miguel-gutierrez-612a83297/" class="linkedin-txt">Miguel Gutierrez</a>
+                </div>
+                
+            </div>
+            
+        </section>
+
+
+
+        <section class="about-content" id="about">
+            <h1 class="about-txt">About Me</h1>
+            <h2 class="about-sub">Meu nome é Miguel, tenho 18 anos e atualmente curso Ciências da Computação na FURB. Sonho em trabalhar na área da tecnologia e principalmente na área da programação. 
+                Atualmente estou à procura de um estágio pois acredito que nesse início de carreira o que mais importa é o aprendizado.
+            </h2>
+        </section>
+
+
+
+        <section class="work-content" id="work">
+            <h1 class="work-txt">My Work</h1>
+            <h2 class="work-sub">Aqui está um pouco do meu trabalho:</h2>
+            <div id="galeria">
+                    <a href="#">
+                        <img class="work-img1" src="imagens/formulario.png" width="285px" height="285px">
+                    </a>
+                    <div class="detalhes">
+                        Um formulário, onde pude explorar melhor a área de banco de dados, MySQL e PHP.<br>
+                    </div>
+            </div>
+        </section>
+
+
+
+        <section class="education-content" id="education">
+            <h1 class="education-txt">Education</h1>
+            <div class="education-sub">
+                <div class="education-sub1">
+                    <h1 class="txt1">Bacharelado em Ciências da Computação FURB (2023/2 - 2027)</h1>
+                    <h1 class="txt2">Conclusão Ensino Médio no Colégio Bom Jesus Santo Antônio (2022)</h1>
+                </div>
+                <div class="education-sub2">
+                    <h1 class="txt3">Alemão Básico (Wizard) - Cursando</h1>
+                    <h1 class="txt4">Inglês Avançado (Cultura Inglesa e Colégio Bom Jesus)</h1>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="certifications-content" id="certifications">
+            <h1 class="certifications-txt">Certifications</h1>
+                <div class="certifications-sub">
+                    
+                    <div class="certifications-sub1">
+                        <h1 class="txt14">HTML e CSS: trabalhando com responsividade e publicação de projetos - Alura (2023)</h1>
+                        <h1 class="txt15">HTML e CSS: Classes, posicionamento e Flexbox - Alura (2023)</h1>
+                        <h1 class="txt16">HTML e CSS: cabeçalho, footer e variáveis CSS - Alura (2023)</h1>
+                        <h1 class="txt17">HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags - Alura (2023)</h1>
+                    </div>
+                    <div class="certifications-sub2">
+                        <h1 class="txt11">Projeto voluntariado "Semeando o Bem" do Colégio Bom Jesus Santo Antônio Blumenau (2021)</h1>
+                        <h1 class="txt12">Curso de Retórica e Oratória do Colégio Bom Jesus Santo Antônio Blumenau (2022)</h1>
+                        <h1 class="txt13">Lógica de programação: comece em lógica com o jogo Pong e JavaScript - Alura (2023)</h1>
+                    </div>
+                </div>
+        </section>
+
+
+
+        <div class="skills-content" id="skills">
+            <h1 class="txt-skill">// SKILLS</h1>
+            <br><br>
+            <div class="img-skill">
+                <div class="img-skill2">
+                    <img src="imagens/java.png" alt="java-logo" width="50px" height="50px">
+                    <img src="imagens/mysql.png" alt="mysql-logo" width="50px" height="50px">
+                    <img src="imagens/css.png" alt="css-logo" width="50px" height="50px">
+                    <img src="imagens/php.png" alt="php-logo" width="50px" height="50px">
+                    <img src="imagens/js.png" alt="JavaScript-logo" width="50px" height="50px">
+                </div>
+                <img src="imagens/html.png" alt="html-logo" width="64px" height="64px" class="html-logo">
+            </div>
+        </div>
+    </main>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            let scroll = document.querySelector('.scroll-top')
+                scroll.classList.toggle('active', window.scrollY > 450) 
+        })
+
+        function backTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            })
+        }
+
+
+    </script>
+
+    
+
+
+
+   
+
+</body>
+</html>
